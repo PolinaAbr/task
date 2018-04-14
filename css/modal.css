@@ -1,0 +1,57 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    margin: 150px auto auto;
+    background-color: white;
+}
+
+.modal-header {
+    padding: 15px 20px;
+    background-color: #363636;
+    color: white;
+}
+
+.modal-article {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.input-log {
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #cecece;
+    outline-color: #aaa;
+    font-size: 18px;
+    font-family: Times New Roman;
+}
+
+.log-btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #363636;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
